@@ -1,42 +1,48 @@
+/* Estiliza o elemento <body> da página */
 body {
-    background-color: rgb(0, 128, 0);
-    font-family: Arial, sans-serif;
-    color: white;
-    text-align: center;
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-  
-  .image {
-    width: 200px;
-    height: 200px;
-    margin-bottom: 20px;
-  }
-  
-  .text {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .arrow {
-    width: 0;
-    height: 0;
-    border-left: 20px solid transparent;
+    background-color: rgb(0, 128, 0); /* Define a cor de fundo como verde */
+    font-family: Arial, sans-serif; /* Define a fonte do texto como Arial ou, se não disponível, uma fonte sans-serif */
+    color: white; /* Define a cor do texto como branca */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+/* Estiliza o container com a classe "container" */
+.container {
+    display: flex; /* Usa o layout flexbox para organizar os itens */
+    flex-direction: column; /* Organiza os itens em uma coluna vertical */
+    align-items: center; /* Alinha os itens ao centro horizontalmente */
+    justify-content: center; /* Alinha os itens ao centro verticalmente */
+    height: 100vh; /* Define a altura do container como 100% da altura da viewport */
+}
+
+/* Estiliza as imagens com a classe "image" */
+.image {
+    width: 200px; /* Define a largura das imagens como 200 pixels */
+    height: 200px; /* Define a altura das imagens como 200 pixels */
+    margin-bottom: 20px; /* Adiciona uma margem inferior de 20 pixels para separar as imagens do texto */
+}
+
+/* Estiliza os textos com a classe "text" */
+.text {
+    font-size: 24px; /* Define o tamanho da fonte como 24 pixels */
+    margin-bottom: 20px; /* Adiciona uma margem inferior de 20 pixels para separar os textos das imagens */
+}
+
+/* Estiliza o elemento com a classe "arrow" para criar uma seta */
+.arrow {
+    width: 0; /* Define a largura da seta como 0 pixels (só os bordas são visíveis) */
+    height: 0; /* Define a altura da seta como 0 pixels */
+    border-left: 20px solid transparent; /* Define as bordas esquerda e direita da seta como transparentes */
     border-right: 20px solid transparent;
-    border-bottom: 30px solid rgb(7, 7, 7);
-    margin-bottom: 20px;
-  }
-  
-  .candidate {
-    font-size: 20px;
-    background-color: rgb(250, 17, 17);
-    color: black;
-    padding: 10px 20px;
-    border-radius: 5px;
-  }
+    border-bottom: 30px solid rgb(7, 7, 7); /* Define a borda inferior da seta como preta */
+    margin-bottom: 20px; /* Adiciona uma margem inferior de 20 pixels para separar a seta dos textos/imagens */
+}
+
+/* Estiliza o texto com a classe "candidate" */
+.candidate {
+    font-size: 20px; /* Define o tamanho da fonte como 20 pixels */
+    background-color: rgb(250, 17, 17); /* Define a cor de fundo como um vermelho intenso */
+    color: black; /* Define a cor do texto como preta */
+    padding: 10px 20px; /* Adiciona um preenchimento de 10 pixels no topo e na base e 20 pixels nas laterais */
+    border-radius: 5px; /* Adiciona bordas arredondadas com raio de 5 pixels */
+}
